@@ -79,7 +79,7 @@ exports.pc = () => {
 }
 
 exports.registered = (namaUser, umurUser, serialUser, time, sender) => {
-	return`╭──── *「 DATA NEGARA 」* ────\n├ ◩ nama\n├ ◩ ${namaUser}\n│\n├ ◩ nomer\n├ ◩ wa.me/${sender.split("@")[0]}\n│\n├ ◩ umur\n├ ◩ ${umurUser}\n│\n├ ◩ waktu pendaftaran\n├ ◩ ${time}\n│\n├ ◩ *NS*\n├ ◩ ${serialUser}\n├ ◩ NOTE : anda sudah terverifikasi di yXu BOT\n╰────── *「 DATA NEGARA 」* ──────`
+	return`╭──── *「 DATA NEGARA 」* ────\n├ ◩ Nama :\n├ ◩ ${namaUser}\n│\n├ ◩ Nomer :\n├ ◩ wa.me/${sender.split("@")[0]}\n│\n├ ◩ Umur :\n├ ◩ ${umurUser}\n│\n├ ◩ Waktu pendaftaran\n├ ◩ ${time}\n│\n├ ◩ *NS*\n├ ◩ ${serialUser}\n├ ◩ Anda sudah terverifikasi di yXu BOT\n╰──── *「 DATA NEGARA 」* ────`
 }
 
 exports.cmdnf = (prefix, command) => {
