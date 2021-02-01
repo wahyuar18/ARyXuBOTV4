@@ -15,7 +15,7 @@ Before running the below command, make sure you're in the project directory that
 you've just cloned!!
 
 ```bash
-> cd botwasapv4
+> cd ARyXuBOTV4
 > bash install.sh
 ```
 
